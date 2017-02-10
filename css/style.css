@@ -1,0 +1,284 @@
+/*
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+*/
+h4, h5, h6,
+h1, h2, h3 {margin-top: 0;}
+ul, ol {margin: 0;}
+p {margin: 0;}
+html,body{
+	font-family: 'Lato', sans-serif;
+	background:#fff;
+}
+
+
+/*--- Experience Starts Here ----*/
+.timeline{
+	min-width:100%;
+}
+.experience{
+	min-width:100%;
+	min-height:1050px;
+
+
+}
+.exp-top{
+	padding:2em 0;
+}
+h1.noh{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+span.devide-line{
+	width:3px;
+	height:150px;
+	position:absolute;
+	
+	display:initial;
+	background:#d4d4d4;
+}
+.exp-devide{
+	height:150px;
+	position:relative;
+	text-align:center;
+}
+.exp-devide h4{
+	color:#2b3b4b;
+	background:#d4d4d4;
+	padding:10px;
+	text-transform:uppercase;
+	font-size:20px;
+	display: block;
+	text-align:center;
+	width:140px;
+	font-weight:800;
+	border-radius:6px;
+	box-sizing: unset;
+	-webkit-border-radius:6px;
+	-o-border-radius:6px;
+	-ms-border-radius:6px;
+	-moz-border-radius:6px;
+	margin:0 auto;
+	position:relative;
+}
+.exp-devide h6{
+	color:#2b3b4b;
+	background:#d4d4d4;
+	padding:10px;
+	text-transform:uppercase;
+	font-size:15px;
+	display: block;
+	text-align:center;
+	width:140px;
+	font-weight:800;
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-o-border-radius:6px;
+	-ms-border-radius:6px;
+	-moz-border-radius:6px;
+	margin:0 auto;
+	position:relative;
+}
+
+label.bag{
+	width:32px;
+	height:32px;
+	background:url(../images/bag.png)no-repeat;
+	display: initial;
+	position:absolute;
+	top:5em;
+	left:39.7em;
+}
+label.book{
+	width:32px;
+	height:32px;
+	background:url(../images/book.png)no-repeat;
+	display: initial;
+	position:absolute;
+	top: 60px;
+	left: 255px;
+}
+.exp-devide-grid-right{
+	width:40%;
+	text-align:left;
+	position:absolute;
+	top: 7em;
+	left: 22em;
+}
+
+
+.exp-devide-grid-right h5,.exp-devide-grid-left h5,.exp-devide-grid-rightb h5,.exp-devide-grid-leftb h5{
+	color:#2b3b4b;
+	text-transform:uppercase;
+	font-size:18px;
+	font-weight:800;
+	margin:0;
+}
+.exp-devide-grid-right small,.exp-devide-grid-left small,.exp-devide-grid-rightb small,.exp-devide-grid-leftb small{
+	font-size:16px;
+	font-weight:400;
+	color:#7f8a90;
+	padding:0 0 10px 0;
+}
+.exp-devide-grid-right p,.exp-devide-grid-left p,.exp-devide-grid-rightb p,.exp-devide-grid-leftb p{
+	font-size:14px;
+	font-weight:400;
+	color:#7f8a90;
+	line-height:1.2em;
+}
+.exp-devide-grid-left{
+	width:40%;
+	text-align:right;
+	position:absolute;
+	top:7em;
+}
+
+.exp-devide-grid-rightb{
+	width:40%;
+	text-align:left;
+	position:absolute;
+	top: 20em;
+	left: 43.255em;
+}
+
+.exp-devide-grid-leftb{
+	width:40%;
+	text-align:right;
+	position:absolute;
+	top:32em;
+	left: 5.8em;
+}
+
+/*--- Experience Ends Here ----*/
+
+@media (max-width: 1185px) {
+.exp-devide-grid-right{
+	width:40%;
+	text-align:left;
+	position:absolute;
+	top: 7em;
+	left: 20em;
+}
+.exp-devide-grid-left{
+	width:40%;
+	text-align:right;
+	position:absolute;
+	top:12em;
+	left: 0em;
+}
+
+.exp-devide-grid-rightb{
+	width:40%;
+	text-align:left;
+	position:relative;
+	top: 20em;
+	left: 35em;
+}
+
+.exp-devide-grid-leftb{
+	width:40%;
+	text-align:right;
+	position:relative;
+	top:32em;
+	left: 5.8em;
+}
+	label.book,
+	label.bag{
+	
+		float: none;
+		display: block;
+		position: relative;
+		margin: 10px auto;
+		top: initial;
+		left: 228px;
+	}
+
+}
+@media (max-width: 991px) {
+.exp-devide-grid-right{
+	width:40%;
+	text-align:left;
+	position:absolute;
+	top: 7em;
+	left: 27.5em;
+}
+.exp-devide-grid-left{
+	width:40%;
+	text-align:right;
+	position:absolute;
+	top: initial;
+		left: initial;
+}
+
+.exp-devide-grid-rightb{
+	width:40%;
+	text-align:left;
+	position:relative;
+	top: 20em;
+	left: 27.5em;
+}
+
+.exp-devide-grid-leftb{
+	width:40%;
+	text-align:right;
+	position:relative;
+	top:32em;
+	left: 3.75em;
+}
+	label.book,
+	label.bag{
+	
+		float: none;
+		display: block;
+		position: relative;
+		margin: 10px auto;
+		top: initial;
+		left: initial;
+	}
+
+}
+
+@media (max-width: 779px){
+	.exp-devide-grid-left,
+	.exp-devide-grid-leftb{
+		
+		width:100%;
+		text-align:center;
+		float: none;
+		display: block;
+		position: relative;
+		margin: 10px auto;
+		top: initial;
+		left: initial;
+		padding-bottom: 20px;
+	}
+	.exp-devide-grid-right,
+	.exp-devide-grid-rightb {
+		width:100%;
+		text-align:center;
+		display: block;
+		position: relative;
+		margin: 10px auto;
+		top: initial;
+		left: initial;
+		padding-bottom: 20px;
+	}
+	label.book,
+	label.bag{
+	float: none;
+		display: block;
+		position: absolute;
+		margin: 10px auto;
+		top: initial;
+		left: initial;
+	}
+	span.devide-line{
+	width:0px;
+	
+}
+}
